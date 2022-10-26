@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+</head>
+<body>
+    <div class="navber">
+        <nav>
+            <img src="../image/06a60b0ca7554fb9939acde29f718a9e (2).png" class="logo">
+            <ul>
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+     <div id="header">
+      <div class="container">
+        <div class="row">
+            <div class="header-text">
+                <h1>Hello, <br>I'm <span>Shuvo</span></h1>
+                <h6>Frontend Webdeveloper</h6>
+                <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, reprehenderit<br> sed ipsum fugit non quae natus doloribus id ex, sequi quia quaerat corrupti.</p>
+                <div class="font-awesome">
+                    <a href="https://www.facebook.com/shuvokaran.rahul/"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.linkedin.com/in/shuvo-karan-a39393184/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/Shuvo895"><i class="fa-brands fa-github"></i></a>
+                    <a href="#"><i class="fa-solid fa-envelope"></i></a>
+                </div>
+                <div class="btn-set">
+                    <a href="../image/Resume of Shuvo Karan.pdf" download><button class="btn">Download CV</button></a>
+                </div>
+                
+            </div>
+            <div class="img-mange">
+                <img src="../image/Screenshot (12).png">
+            </div>
+        </div>
+      </div>
+     </div>
+
+
+
+<!-- /* ------about Section------ */ -->
+
+     <div class="about" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="../image/IMG_2716.JPG" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p class="text">I can conjur a website from nothing into existence, fully formed. I do not use tricks, nor
+                         is this magic. I specialize in manipulating the very fabric of the web,its raw materials
+                          of HTML, CSS,Bootstrap, JavaScript, and SVG.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                        <p class="tab-links" onclick="opentab('Certification')">Certification</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Design</span><br>Design Web Appcation</li>
+                            <li><span>Frontend Development</span><br>Build Web with HTML CSS JAVASCRIPT</li>
+                            <li><span>Web Development</span><br>Build Web with PHP</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li>No Work Experience.</li>
+                            
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>SSC</span><br>Academy Laboratory School.</li>
+                            <li><span>HSC</span><br>BAF Shaheen College,Chittagong.</li>
+                            <li><span>BSC in CSE</span><br>BGC Trust University,Bangladesh.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Certification">
+                        <ul>
+                            <li><span>Web Development Course</span><br>Programming Hero.</li>
+                            <li><span>PHP with Laravel</span><br>BITM-SEIP.</li>
+                            <li><span>Andriod Appcation</span><br>ICT Division.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+     </div>
+     <!-- ------portfolio section--------->
+     <div class="portfolio" id="portfolio">
+        <div class="container">
+            <div class="sub-title">My Work</div>
+            <div class="work-list">
+                <div class="work">
+                    <img src="../image/wedding.png">
+                    <h2>Wedding Convensation</h2>
+                    <a href="https://pedantic-meninsky-6cc955.netlify.app/"><button class="btn-2">LIVE VIEW</button></a><a href="https://github.com/Shuvo895/convension-center"><button class="btn-2">GITHUB CODE</button></a>
+                </div>
+                <div class="work">
+                    <img src="../image/Screenshot (14).png">
+                    <h2>E-commerce Design</h2>
+                    <a href="https://shuvo895.github.io/panda-ecomarce-bootstrap/"><button class="btn-2" >LIVE VIEW</button></a><a href="https://github.com/Shuvo895/panda-ecomarce-bootstrap"><button class="btn-2">GITHUB CODE</button></a>
+                
+                </div>
+                <div class="work">
+                    <img src="../image/wedding.png">
+                    <h2>Wedding Convensation</h2>
+                    <button class="btn-2">LIVE VIEW</button><button class="btn-2">GITHUB CODE</button>
+                </div>
+
+                <div class="btn-3">
+                    <button class="button-1">SEE MORE +</button>
+                </div>
+            </div>
+        </div>
+     </div>
+
+     <!-- /* -----------contact section---------- */ -->
+
+     <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <div class="sub-title">Contact Me</div>
+                    <p><i class="fa-brands fa-telegram"></i>Shuvokaron85@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>01856719485</p>
+                    <div class="social-icons">
+                    <a href="https://www.facebook.com/shuvokaran.rahul/"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.linkedin.com/in/shuvo-karan-a39393184/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/Shuvo895"><i class="fa-brands fa-github"></i></a>
+                    <a href="#"><i class="fa-solid fa-envelope"></i></a>
+                </div>
+
+            </div> 
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn-4">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright Shuvo.Made by me.<i class="fa-solid fa-heart"></i></p>
+        </div>
+     </div>
+</body>
+</html>
